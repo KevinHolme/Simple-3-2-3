@@ -35,7 +35,6 @@ unsigned long lastDebounceTime = 0;  // the last time the output pin was toggled
 unsigned long debounceDelay = 50;    // the debounce time; increase if the output flickers
 unsigned long ShowTime = 1;
 
-#define TX_PIN 11 // Software serial Tx pin, 
 
 const byte Aux1Pin = A2;    //Input pin from the RC reciever
 const byte Aux2Pin = A3;    //Input pin from the RC reciever
