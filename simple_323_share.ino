@@ -331,6 +331,7 @@ if(StanceTarget == 0){
    LegHappy = 0;
    TiltHappy = 0;
   return;
+ }
   // target is two legs, tilt is down, center leg is unknown,  too risky, do nothing. 
  if(StanceTarget == 1 && Stance == 6){
   ST.motor(1, 0);
@@ -373,7 +374,6 @@ if(StanceTarget == 0){
    LegHappy = 1;
    MoveLegDn();
   }
- }
 }
 
 
